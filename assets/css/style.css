@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@200;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Antonio", sans-serif;
+  line-height: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .logo {
+  font-weight: 600;
+  font-size: 2.2em;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+button {
+  font-family: inherit;
+  padding: 12px 10px;
+  font-size: 1.2rem;
+  border: 1px solid white;
+}
+
+section {
+  background-color: #1c073e;
+  height: 100vh;
+}
+
+section .hero-content {
+  max-width: 370px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  z-index: 1;
+}
+
+section .hero-content h1 {
+  font-size: 2.6em;
+  margin-bottom: 1rem;
+  line-height: 1.3em;
+}
+
+section .hero-content h1 span {
+  color: yellow;
+}
+
+section .hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+section .hero-content .sign-up {
+  margin-right: 1rem;
+  background-color: #ffff;
+}
+
+section .hero-content .talk-to-us {
+  background-color: #1c073e;
+  color: #ffff;
+}
+
+section .hero-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+section .hero-images svg {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */
