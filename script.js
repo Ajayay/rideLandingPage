@@ -23,7 +23,7 @@ gsap.to("#red-car", {
   x: 2020,
   y: 390,
   ease: "none",
-  repeat: 4,
+  repeat: 14,
   repeatDelay: 1
 });
 
@@ -32,7 +32,7 @@ gsap.to("#blue-car", {
   x: 200,
   y: 1,
   ease: "none",
-  repeat: 4,
+  repeat: 14,
   repeatDelay: 1
 });
 
@@ -41,6 +41,6 @@ gsap.to("#yellow-car", {
   x: 884,
   y: 1114,
   ease: "none",
-  repeat: 4,
+  repeat: 14,
   repeatDelay: 1
 });
